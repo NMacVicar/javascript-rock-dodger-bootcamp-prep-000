@@ -91,6 +91,8 @@ function createRock(x) {
      */
      if (top < 380){
        rock.style.top = `${top + 2}px`
+     } else {
+       rock.remove()
      }
      }
 
